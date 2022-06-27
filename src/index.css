@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    outline: none;
+}
+
+body{
+    background-color: #121214;
+}
+
+.post-content-custom-class > a {
+    display: inline-block;
+    color: #00B37E;
+    font-weight: 700;
+    border-bottom: 1px solid #00B37E;
+    transition-property: all;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 200ms;
+}
+
+.post-content-custom-class > a:hover {
+    display: inline-block;
+    color: #00B37E;
+    font-weight: 700;
+    border-bottom: 3px solid #00B37E;
+    margin-bottom: -2px;
+}

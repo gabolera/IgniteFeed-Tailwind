@@ -3,7 +3,7 @@ import { IoBrushOutline } from "react-icons/io5";
 
 export function UserSection({ name, office, image }) {
   return (
-    <div className="relative col-span-3 bg-gray-700 w-full pb-5 rounded-lg text-white max-h-[270px]">
+    <div className="relative bg-gray-700 w-full pb-5 rounded-lg text-white max-h-[270px]">
       <div
         className="flex w-full h-16 bg-center bg-cover rounded-t-lg justify-center p-8"
         style={{

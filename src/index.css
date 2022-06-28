@@ -10,6 +10,12 @@ body{
     background-color: #121214;
 }
 
+@media (max-width: 768px) {
+    html{
+        font-size: 87.5%;
+    }
+}
+
 .post-content-custom-class > a {
     display: inline-block;
     color: #00B37E;
